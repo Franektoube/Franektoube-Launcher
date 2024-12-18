@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --icon "logo.ico" --name "Franektoube-Launcher" --optimize "2" --add-data "logo.ico;." --collect-submodules "minecraft_launcher_lib"  "main.py"
